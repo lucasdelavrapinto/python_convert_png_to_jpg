@@ -3,7 +3,7 @@ import os
 import time 
 from functions import convert_png_to_jpg, clear_all_files
 
-clear_all_files()
+# clear_all_files()
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 temp_dir = os.path.join(current_dir, 'temp')
